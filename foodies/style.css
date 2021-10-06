@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+ .navbar{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+} 
+.navbar-nav li a{
+    color:brown;
+    font-weight: 600;
+} 
+.navbar-nav li a:hover{
+    color: red;
+}
+.navbar-brand{
+    font-weight: 600;
+    
+}  
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+.navigate-wrap .scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:whitesmoke;
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.7);
+    transition: all .15s ease-in-out 0s;
+}
+/* .nav a img{
+    width: 150px;
+    height: 100px;
+} */
+.top-banner{
+    width: 100%;
+    background-image: url("./images/hermes-rivera-Ww8eQWjMJWk-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem ;
+     /* height: auto; */
+}
+
+
+ h1{
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom:2rem;
+   /* padding: 15.875rem 0 9.375rem; */
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+    
+}
+.main_btn{
+     display: inline-block;
+     padding: 0.625rem 1.875rem;
+     line-height: 1.5625rem;
+     font-size: 1.1rem;
+     font-weight: 600;
+     color: white;
+     background-color:red;
+     border:1.2px solid black;
+     margin-top: 2rem;
+}
+.main_btn:hover{
+    background-color: transparent;
+    color:red;
+}
+.white_btn{
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+    background-color:white;
+    border:1.2px solid black;
+}
+.white_btn:hover{
+    background-color:black;
+    color:white;
+}
+.counter-section{
+    background-color:brown;
+    padding: 2rem 0;
+}
+.counter-section p{
+    color: white;
+    text-transform: uppercase;
+}
+.counter-section h2 span{
+    color: white;
+    font-weight: 600;
+}
+.about-section{
+    background: white;
+}
+.text-sec h2{
+    font-weight: 600;
+    margin-top: 1rem;
+    color:darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* story section */
+
+#story{
+     margin-top:3rem;
+    width: 100%;
+    height:auto;
+    background: url('./images/reannan-finney-QjfOTjR6Cwo-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#story .story-section h2{
+    color:darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+#story .story-section p{
+    margin: 0 5%;
+}
+/* explore food */
+
+.explore-food .card{
+    border: none;
+    background-color: transparent;
+}
+.card span{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-bottom: .5rem;
+}
+.card span del{
+    color: gray;
+}
+.explore-food p{
+    margin: 0 8%;
+}
+/* testimonial section */
+
+/* .testimonial-section{
+    margin-top: 2rem;
+    background-color: brown;
+}
+.testimonial-section .carousel-item{
+    margin-top: 2rem;
+    padding: 5rem 3.125rem;
+    background-color: white;
+    text-align: center;
+}
+.testimonial-section .carousel-item img{
+  width:77vw;
+  height: 40vh;
+  border-radius: 2%;
+  padding: 0.3125rem;
+}
+.testimonial-section .carousel-item p{
+   font-size: 1.3125rem;
+   line-height: 2.0625rem;
+   padding: 0 11% 0.625rem;
+} */
+
+/* faq section */
+.faq h2{
+    margin-top: 2rem;
+}
+.faq h4 span{
+    color: brown;
+    font-size: 1.875rem;
+    margin-right: 0.3125rem;
+}
+
+/* book-food */
+
+.book-food{
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('./images/set-whole-cut-fresh-grapefruit-slices-isolated-white-surface_24972-1127.jpg');
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 3.375rem 0;
+}
+
+/* newsletter */
+
+.newsletter{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.newsletter .form-control{
+    height: 3.215rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid gray;
+    color: black;
+}
+
+.newsletter .form-control :hover,
+.newsletter .form-control :focus{
+     outline: none;
+     box-shadow: none;
+     border-color: brown;
+}
+
+/* footer section */
+
+.footer{
+    background-color: brown;
+    margin-top: 3rem;
+}
+.footer .footer-link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    padding: 0 1.875rem;
+}
+.footer .footer-link:hover{
+    text-decoration: underline;
+}
+.footer .footer-social a{
+    padding: 0 1.575rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color:white;
+}
+
+@media (max-width:767px){
+
+    .newsletter{
+        width: 75%;
+    }
+    .newsletter .main_btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
+}
+
+@media (max-width:480px){
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.4rem;
+    }
+    .footer .footer-social a {
+        padding: 0  0.425rem;
+    }
+}
